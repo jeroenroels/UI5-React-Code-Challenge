@@ -24,10 +24,7 @@ const addTask = (taskData) => {
 };
 const createRows = (newIndex) => {
   newIndex = newIndex ? (newIndex + 5) : 10;
-
-  if (newIndex > tableData.length) {
-    newIndex = tableData.length;
-  }
+  newIndex = (newIndex > tableData.length) ? tableData.length : newIndex;
 
   return tableData.slice(0, newIndex).map((row, index) => (
     <TableRow key={`${index + newIndex}-row`}>
