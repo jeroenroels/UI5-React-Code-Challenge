@@ -5,8 +5,8 @@ import { useState } from "react";
 
 const statusCodes = {
   "In Progress": 1,
-  "Blocked": 3,
-  "Completed": 2,
+  "Blocked": 2,
+  "Completed": 7,
   "Not Started": 10
 };
 
