@@ -2,37 +2,37 @@ export const fullTableData = [
   {
     id: 1,
     title: "Create table",
-    status: "Not Started",
+    status: "Completed",
   },
   {
     id: 2,
     title: "Load table with temp data",
-    status: "Not Started",
+    status: "Completed",
   },
   {
     id: 3,
     title: "Fix table bug",
-    status: "Not Started",
+    status: "Completed",
   },
   {
     id: 4,
     title: "Use full data set in props",
-    status: "Not Started",
+    status: "Completed",
   },
   {
     id: 5,
     title: "Limit table rows loaded on initialization to 10",
-    status: "Not Started",
+    status: "Completed",
   },
   {
     id: 6,
     title: "Create custom status component",
-    status: "Not Started",
+    status: "Completed",
   },
   {
     id: 7,
     title: "Figure out how to use Enums in an object",
-    status: "Not Started",
+    status: "In Progress",
   },
   {
     id: 8,
@@ -98,5 +98,28 @@ export const fullTableData = [
     id: 20,
     title: "Submit each week for a really cool badge",
     status: "Not Started",
+  },
+];
+
+export const tableData = [
+  {
+    id: 1,
+    title: "Create table",
+    status: "Completed",
+  },
+  {
+    id: 2,
+    title: "Load table with data",
+    status: "In Progress",
+  },
+  {
+    id: 3,
+    title: "Use custom status component",
+    status: "Not Started",
+  },
+  {
+    id: 4,
+    title: "Create table search",
+    status: "Blocked",
   },
 ];
