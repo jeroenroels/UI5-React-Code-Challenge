@@ -1,3 +1,6 @@
+# SAP Developer Challenge – UI5 Web Components for React: 
+[Link to challenge](https://blogs.sap.com/2023/06/07/sap-ui5-web-components-for-react-challenge-table-mastery-and-custom-components/)
+
 # Vite + React
 
 This is a [Vite](https://vitejs.dev) project together with React.
